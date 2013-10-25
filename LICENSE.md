@@ -5,7 +5,7 @@ This educational work is provided free of charge for anyone in the world to make
 
 This is also provided free in a second sense: you are free to use and/or modify _all_ of the material which I have written, _except_ anywhere where another author is named (e.g. most photographs), under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license (CC BY-NC-SA 3.0).  This kind of freedom is often termed _copyleft_. You are particularly welcome to use my materials for educational purposes.
 
-    This work by A.C. Norman is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+>This work by A.C. Norman is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 In detail, this means that you are free to share (copy, distribute and transmit), and to remix (adapt and change) the materials and resources, so long as you attribute me as the author (but not in any way that suggests that I endorse you or your use of them), you do not use them for commercial purposes, and if you alter, transform, or build upon them, you may distribute the resulting works only under the same or similar license to this one.
 
