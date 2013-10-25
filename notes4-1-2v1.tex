@@ -1,0 +1,114 @@
+
+\documentclass[a4paper,nohyper,12pt]{tufte-book}
+\usepackage{acn-scientific}
+\usetikzlibrary{decorations.pathreplacing,
+  decorations.markings,
+  decorations.pathmorphing}
+\usetikzlibrary{patterns,fadings}
+
+\setcounter{secnumdepth}{0}
+
+%%
+% Produces a full title page
+
+\renewcommand\maketitle{
+  \vfil\null
+  \global\let\maketitle\relax
+  \global\let\@author\@empty
+  \global\let\@date\@empty
+  \global\let\@title\@empty
+  \global\let\title\relax
+  \global\let\author\relax
+  \global\let\date\relax
+  \global\let\and\relax
+}
+
+%\title{AQA Unit PHYA4\\Simple Harmonic Motion}
+\title{Simple Harmonic Motion}
+\author{A.C. Norman}
+\date{Autumn Term, 2013}
+
+\begin{document}
+\begin{titlepage}
+
+\begin{fullwidth}
+
+  \begin{center}
+\vfill
+    {\fontsize{32}{36}\selectfont AQA Unit PHYA4\\Simple Harmonic Motion\\}
+    \vspace*{2em}
+            {\LARGE
+              \vspace{.75em}
+              \begin{tabular}[t]{c}
+                Mr \textsc{A.C. Norman}\\
+                \textsc{Bishop Heber High School}\\ 
+                \texttt{anorman@bishopheber.cheshire.sch.uk}
+            \end{tabular}}\\
+            \vspace{1.5em}
+                   {\Large Autumn Term, 2013}
+  \end{center}
+  
+\thispagestyle{empty}
+
+\vfill
+
+\begin{center}
+\noindent\includegraphics[width=1.5\textwidth]{img/resonance.png} 
+
+\begin{flushright}
+\texttt{http://xkcd.com/228/}
+\end{flushright}
+\end{center}
+
+\vfill
+
+\end{fullwidth}
+
+\normalsize
+
+\end{titlepage}
+\newpage
+
+\thispagestyle{empty}
+\addtocounter{page}{-2}
+
+\begin{fullwidth}
+\begin{center}
+\fbox{
+\begin{minipage}{252pt}
+\vspace*{1em}
+\begin{center}
+\includegraphics[width=108pt]{by-nc-sa.png}
+\end{center}
+
+This work is licensed under a Creative Commons
+Attribution-NonCommercial-ShareAlike License.
+
+{\footnotesize\texttt{http://creativecommons.org/licenses/by-nc-sa/3.0/}}\\
+
+Non-commercial uses are thus permitted without any
+further permission from the copyright owner.\\
+
+%Permissions beyond the scope of this license are
+%administered by the author. Information on how
+%to request permission may be found at:
+%http://www.randomhouse.com/about/
+%permissions.html
+\end{minipage}
+}
+\end{center}
+
+\end{fullwidth}
+
+%\tableofcontents
+\clearpage
+%\part{SHM}
+
+%CONTENT:
+\input{mass-spring.tex}
+\input{pendulum.tex}
+\input{shm-maths.tex}
+\input{resonance.tex}
+\input{damping.tex}
+
+\end{document}

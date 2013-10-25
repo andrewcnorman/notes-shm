@@ -1,0 +1,45 @@
+
+\documentclass[nofonts,a4paper]{tufte-handout}
+\usepackage{acn-scientific}
+\usepackage{acn-particlestyle}
+%\usepackage{acn-classnotes}
+
+\IfFileExists{helvet.sty}{\usepackage[scaled=0.90]{helvet}}{}
+%\IfFileExists{mathpazo.sty}{\usepackage[osf,sc]{mathpazo}}{}%%%THIS BREAKS Pi-zero
+\usepackage{palatino}
+\IfFileExists{beramono.sty}{\usepackage[scaled=0.85]{beramono}}{}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+% The following package makes prettier tables.
+\usepackage{booktabs}
+
+\usetikzlibrary{decorations.pathreplacing,
+  decorations.markings,
+  decorations.pathmorphing}
+
+\setcounter{secnumdepth}{0}
+
+\title{SHM: Mass--spring system}
+%\title{SHM: The simple pendulum}
+%\title{Resonance}
+%\title{Resonance}
+%\title{Damping}
+\author{A.C. Norman, Bishop Heber High School}
+\date{}
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+\thispagestyle{empty}
+\input{mass-spring.tex}
+%\input{pendulum.tex}
+%\input{shm-maths.tex}
+%\input{resonance.tex}
+%\input{damping.tex}
+
+\vfill
+
+\noindent\includegraphics[width=1.2\textwidth]{by-nc-sa-banner.png}
+\end{document}
